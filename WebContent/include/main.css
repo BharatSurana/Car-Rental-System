@@ -1,0 +1,147 @@
+.header {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
+	color:#FFFFFF;
+
+	font-size:14px;
+	background:#D22929;
+	height:20px;
+	padding-left: 10px;
+	border-bottom:#333333 solid 2px;
+	
+}
+
+.redButton {
+	color:#D22929;
+	padding:5px 15px;
+	border:#D22929 solid 1px;
+	font-weight:bold;
+	background-color:#9BC84C;
+}
+
+body {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+}
+
+td {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+}
+
+th {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+}
+
+form {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+	}
+
+input {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+}
+
+textarea {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+}
+
+select {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+}
+
+ul {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+	list-style-type: disc;
+	list-style-position: outside;
+}
+
+li {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+}
+
+ol {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+	list-style-type: upper-roman;
+	list-style-position: outside;
+}
+
+.small {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 9px;
+}
+
+.big {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 18px;
+}
+
+.bodystyle {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+}
+
+.box1 {
+	padding: 3px;
+	border-width: thin;
+	border-style: solid;
+	border-color: #CCCCCC #666666 #666666 #CCCCCC;
+}
+
+.box2 {
+	border-width: 3px;
+	border-style: solid;
+	padding: 5px;
+}
+
+.bg-color{
+	background-color:#D22929;
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fc8d83), color-stop(1, #e4685d));
+	background:-moz-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:-webkit-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:-o-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:-ms-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fc8d83', endColorstr='#e4685d',GradientType=0);
+	background-color:#fc8d83;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e4685d), color-stop(1, #fc8d83));
+	background:-moz-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+	background:-webkit-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+	background:-o-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+	background:-ms-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+	background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4685d', endColorstr='#fc8d83',GradientType=0);
+	background-color:#e4685d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
